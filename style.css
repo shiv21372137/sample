@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+:root {
+    --bgc: black
+}
+
+header {
+    height: 100%;
+
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+
+}
+
+header ul li {
+    padding: 1.8rem 2rem;
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-color: var(--bgc);
+}
+
+.nav1 {
+    background-color: bisque;
+    flex-grow: 1;
+    
+
+}
+
+.nav2 {
+    background-color: rgb(210, 129, 30);
+    flex-grow: 1;
+
+}
+
+h1 {line-height: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    color: black;
+    font-size: 1.8rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 80vh;
+
+}
+
+button {position: relative; left: 11rem; top: 33rem;
+    height: 2rem;
+    width: 8rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    
+border: 0.2rem solid rgb(11, 111, 235);
+}
+.btn{ 
+
+}
+
+article {
+    flex-grow: 1;
+    background-color: orange;
+
+}
+
+.article1 {
+    flex-grow: 1;
+    background-color:white;
+
+}
+
+.article2 {
+    flex-grow: 1;
+    background-color: green;
+
+}
+aside{display: flex; flex-direction: row;
+    background-color: antiquewhite; height: 80vh;
+}
+.aside1{  background-color: rgb(110, 148, 255);
+    flex-grow: 1;
+    
+
+}
+.aside2{  background-color: rgb(17, 233, 68);
+    flex-grow: 1;
+    
+
+}
+.reviews{ display: flex; height: 80vh; background-color: brown;
+
+}
+.reviews1{flex-grow: 1; background-color: rgb(199, 187, 143);
+
+}
+.reviews2{flex-grow: 1; background-color: rgb(210, 183, 233);
+    
+}
+.reviews3{flex-grow: 1; background-color: rgb(125, 218, 242);
+    
+}
+.face{ height: 8rem;width: 8rem; background-color: rgb(231, 225, 237); border-radius: 4rem; position: relative; top: 5rem; left:12rem ;
+
+}
+h3{text-align: center; line-height: 4rem;}
+.contact{height: 70vh; background-color: black; display: flex; flex-direction: row;}
+.image1{
+    flex-grow: 1; background-color: rgb(234, 137, 156);
+}
+.image2{
+    flex-grow: 1; background-color: rgb(196, 133, 227);
+}
+@media all and (max-width:800px) {
+    nav {
+        flex-direction: column;
+
+    }
+
+    main {flex-direction: column;
+        
+    }
+    
+
+  button{left: 8.5rem; top: 9rem;
+
+  }
+  .reviews{flex-direction: column;
+
+  }
+aside{flex-direction: column;} .face{height: 5rem; width: 5rem; border-radius: 3rem; top: 1rem; left: 10rem;}
+.contact{flex-direction: column;
+
+}
+}
