@@ -44,7 +44,7 @@ nav {
 .nav1 {
     background-color: bisque;
     flex-grow: 1;
-    
+
 
 }
 
@@ -54,7 +54,8 @@ nav {
 
 }
 
-h1 {line-height: 1.5rem;
+h1 {
+    line-height: 1.5rem;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -75,15 +76,18 @@ main {
 
 }
 
-button {position: relative; left: 11rem; top: 33rem;
+button {
+    position: relative;
+    left: 11rem;
+    top: 33rem;
     height: 2rem;
     width: 8rem;
     background-color: black;
     color: aliceblue;
     border-radius: 0.8rem;
     font-size: 1rem;
-    
-border: 0.2rem solid rgb(11, 85, 175);
+
+    border: 0.2rem solid rgb(11, 85, 175);
 }
 
 article {
@@ -94,7 +98,7 @@ article {
 
 .article1 {
     flex-grow: 1;
-    background-color:white;
+    background-color: white;
 
 }
 
@@ -103,61 +107,123 @@ article {
     background-color: green;
 
 }
-aside{display: flex; flex-direction: row;
-    background-color: antiquewhite; height: 80vh;
+
+aside {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    height: 80vh;
 }
-.aside1{  background-color: rgb(110, 148, 255);
+
+.aside1 {
+    background-color: rgb(110, 148, 255);
     flex-grow: 1;
-    
+
 
 }
-.aside2{  background-color: rgb(17, 233, 68);
+
+.aside2 {
+    background-color: rgb(17, 233, 68);
     flex-grow: 1;
-    
+
 
 }
-.reviews{ display: flex; height: 80vh; background-color: brown;
+
+.reviews {
+    display: flex;
+    height: 80vh;
+    background-color: brown;
 
 }
-.reviews1{flex-grow: 1; background-color: rgb(199, 187, 143);
+
+.reviews1 {
+    flex-grow: 1;
+    background-color: rgb(199, 187, 143);
 
 }
-.reviews2{flex-grow: 1; background-color: rgb(210, 183, 233);
-    
-}
-.reviews3{flex-grow: 1; background-color: rgb(125, 218, 242);
-    
-}
-.face{ height: 8rem;width: 8rem; background-color: rgb(231, 225, 237); border-radius: 4rem; position: relative; top: 5rem; left:12rem ;
+
+.reviews2 {
+    flex-grow: 1;
+    background-color: rgb(210, 183, 233);
 
 }
-h3{text-align: center; line-height: 4rem;}
-.contact{height: 100vh; background-color: black; display: flex; flex-direction: row;}
-.image1{
-    flex-grow: 1; background-color: rgb(234, 137, 156);
+
+.reviews3 {
+    flex-grow: 1;
+    background-color: rgb(125, 218, 242);
+
 }
-.image2{
-    flex-grow: 1; background-color: rgb(196, 133, 227);
+
+.face {
+    height: 8rem;
+    width: 8rem;
+    background-color: rgb(231, 225, 237);
+    border-radius: 4rem;
+    position: relative;
+    top: 5rem;
+    left: 12rem;
+
 }
+
+h3 {
+    text-align: center;
+    line-height: 5rem;
+}
+
+.contact {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.image1 {
+    flex-grow: 1;
+    background-color: rgb(234, 137, 156);
+}
+
+.image2 {
+    flex-grow: 1;
+    background-color: rgb(196, 133, 227);
+}
+
 @media all and (max-width:800px) {
     nav {
         flex-direction: column;
 
     }
 
-    main {flex-direction: column;
-        
+    main {
+        flex-direction: column;
+
     }
-    
 
-  button{left: 7rem; top: 11rem;
 
-  }
-  .reviews{flex-direction: column;
+    button {
+        left: 7rem;
+        top: 11rem;
 
-  }
-aside{flex-direction: column;} .face{height: 5rem; width: 5rem; border-radius: 3rem; top: 1rem; left: 9rem;}
-.contact{flex-direction: column;
+    }
 
-}
+    .reviews {
+        flex-direction: column;
+
+    }
+
+    aside {
+        flex-direction: column;
+    }
+
+    .face {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 3rem;
+        top: 1rem;
+        left: 9rem;
+    }
+
+    .contact {
+        flex-direction: column;
+
+    }
 }
