@@ -37,7 +37,7 @@ header ul li a {
 nav {
     display: flex;
     flex-direction: row;
-    height: 80vh;
+    height: 100vh;
     background-color: var(--bgc);
 }
 
@@ -71,7 +71,7 @@ main {
     display: flex;
     flex-direction: row;
     background-color: white;
-    height: 80vh;
+    height: 100vh;
 
 }
 
@@ -132,7 +132,7 @@ aside{display: flex; flex-direction: row;
 
 }
 h3{text-align: center; line-height: 4rem;}
-.contact{height: 70vh; background-color: black; display: flex; flex-direction: row;}
+.contact{height: 100vh; background-color: black; display: flex; flex-direction: row;}
 .image1{
     flex-grow: 1; background-color: rgb(234, 137, 156);
 }
@@ -150,13 +150,13 @@ h3{text-align: center; line-height: 4rem;}
     }
     
 
-  button{left: 8.5rem; top: 9rem;
+  button{left: 7rem; top: 11rem;
 
   }
   .reviews{flex-direction: column;
 
   }
-aside{flex-direction: column;} .face{height: 5rem; width: 5rem; border-radius: 3rem; top: 1rem; left: 10rem;}
+aside{flex-direction: column;} .face{height: 5rem; width: 5rem; border-radius: 3rem; top: 1rem; left: 9rem;}
 .contact{flex-direction: column;
 
 }
